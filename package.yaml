@@ -1,0 +1,30 @@
+name:                lh
+version:             0.1.0.0
+github:              "chrisdone/lh"
+license:             BSD-3-Clause
+author:              "Chris Done"
+maintainer:          "chris@chrisdone.com"
+copyright:           "2025 Chris Done"
+
+extra-source-files:
+- README.md
+- CHANGELOG.md
+
+dependencies:
+- base >= 4.7 && < 5
+- liquidhaskell
+
+ghc-options:
+
+- -Wall
+- -Wcompat
+- -Widentities
+- -Wincomplete-record-updates
+- -Wincomplete-uni-patterns
+- -Wmissing-export-lists
+- -Wmissing-home-modules
+- -Wpartial-fields
+- -Wredundant-constraints
+
+library:
+  source-dirs: src
