@@ -1,3 +1,4 @@
+{-# OPTIONS_GHC -fplugin=LiquidHaskell #-}
 -- |
 
 module CheckThatData where
@@ -10,6 +11,6 @@ calc = do
   n <- readLn
   putStrLn "Enter denominator"
   d <- readLn
-  if d > 0
+  if d /= 0
      then putStrLn ("Result = " ++ show (divide n d))
      else putStrLn "It's zero!"

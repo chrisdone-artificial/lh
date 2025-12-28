@@ -1,6 +1,7 @@
 resolver: nightly-2024-10-21
 system-ghc: true
 allow-different-user: true
+
 extra-deps:
   - liquidhaskell-0.9.8.2
   - liquidhaskell-boot-0.9.8.2
