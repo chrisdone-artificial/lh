@@ -6,10 +6,16 @@ author:              "Chris Done"
 maintainer:          "chris@chrisdone.com"
 copyright:           "2025 Chris Done"
 
+default-extensions:
+  - ImportQualifiedPost
+
 dependencies:
 - base >= 4.7 && < 5
 - liquidhaskell
 - containers
+- QuickCheck
+- bytestring
+- flatparse
 
 ghc-options:
 - -Wall
